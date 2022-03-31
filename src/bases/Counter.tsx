@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 
 // Defining the type of my props
