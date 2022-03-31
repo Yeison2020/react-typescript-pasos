@@ -3,7 +3,8 @@ import { useState } from "react";
 
 // Defining the type of my props
 interface Props {
-  initialValue: number;
+  // This ? means initialValue Optional
+  initialValue?: number;
 }
 const Counter = ({ initialValue = 0 }: Props) => {
   const [counter, setCounter] = useState(initialValue);
