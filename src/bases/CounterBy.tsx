@@ -18,7 +18,7 @@ const CounterBy = ({ initialValue = 5 }: Props) => {
   };
   return (
     <>
-      <h1>Counter By 5{counter.counter}</h1>
+      <h1>Counter By: {counter.counter}</h1>
       <h2>Click {counter.click}</h2>
       <button onClick={() => handleCounter(1)}>+1 Click me</button>
       <hr />
